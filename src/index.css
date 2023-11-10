@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  @apply border m-1 px-3 py-1 rounded-lg bg-blue-500 text-white
+}
+
+a {
+  @apply px-3 py-1 rounded-lg bg-blue-700 text-white items-center
+}
+
+.navbar {
+  @apply flex gap-2;
+}
